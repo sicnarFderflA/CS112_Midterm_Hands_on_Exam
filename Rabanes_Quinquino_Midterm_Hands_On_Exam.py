@@ -52,7 +52,7 @@ num1 = random.randint(1 , 99)
 num2 = random.randint(1 , 99)
 
 q4 = int(input(f"What is {num1} / {num2}?"))
-a4 = num1 / num2
+a4 = num1 // num2
 print(f"{num1} / {num2} = {a4}")
 
 if q4 == a4:
